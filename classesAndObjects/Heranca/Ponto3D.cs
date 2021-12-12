@@ -1,4 +1,4 @@
-namespace classesAndObjects.Heranca
+namespace Classes.Heranca
 {
     public class Ponto3D : Ponto
     {
