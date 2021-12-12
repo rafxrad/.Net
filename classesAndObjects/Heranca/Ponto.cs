@@ -10,9 +10,9 @@ namespace Classes
             y = this.y;
         }
 
-        protected void CalcularDistancia()
+        public int CalcularDistancia(int x, int y)
         {
-
+            return x * y;
         }
 
         private void CalcularDistancia2()
