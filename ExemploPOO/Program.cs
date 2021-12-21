@@ -1,20 +1,24 @@
 ﻿using System;
-
+using ExemploPOO.Helper;
 
 namespace ExemploPOO.Models{
     class Program {
         static void Main(string[] args)
         {
+            var caminho = "C:\\Users\\weiss\\Documents\\ExemploPOO";
+            FileHelper helper = new FileHelper();
+            helper.ListarDiretorios(caminho);
 
-            CCorrente c1 = new CCorrente();
-            c1.Creditar(3000);
+
+            // CCorrente c1 = new CCorrente();
+            // c1.Creditar(3000);
            
-            c1.exibirSaldo();
+            // c1.exibirSaldo();
 
-            CCorrente c2 = new CCorrente();
-            c2.tarifa = 3000;
-            c2.Creditar(50000);
-            c2.exibirSaldo();
+            // CCorrente c2 = new CCorrente();
+            // c2.tarifa = 3000;
+            // c2.Creditar(50000);
+            // c2.exibirSaldo();
 
 
             // Pessoa p1 = new Pessoa();
